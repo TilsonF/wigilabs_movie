@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Wigilabs_movie</string>
+
+
+    <string name="videos_api">https://api.themoviedb.org/3/</string>
+    <string name="api_key">33b17ab57b26981fc9b738094617084d</string>
+    <string name="images_url">http://image.tmdb.org/t/p/w500//</string>
+
+
+    <string name="title_tab0">Popular</string>
+    <string name="title_tab1">Top</string>
+    <string name="id_movie">id</string>
+    <string name="title_movie">title</string>
+    <string name="detail_movie">detail</string>
+</resources>
