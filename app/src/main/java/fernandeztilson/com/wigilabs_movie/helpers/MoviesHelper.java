@@ -155,7 +155,7 @@ public class MoviesHelper {
                         //recyclerView.addItemDecoration(new DividerItemDecoration(context, DividerItemDecoration.VERTICAL));
                         recyclerView.setItemAnimator(new DefaultItemAnimator());
                         Log.e("movie search size", movieSearch.toString());
-                        recyclerView.setAdapter(new ItemRecyclerViewAdapter(movieSearch, interactionListener, mainActivity.getApplicationContext()));
+                        recyclerView.setAdapter(new ItemRecyclerViewAdapter(movieSearch, interactionListener, mainActivity));
 
 
                         mainActivity.sheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
